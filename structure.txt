@@ -1,0 +1,27 @@
+pixel-video-mosaic/
+├── package.json
+├── next.config.js
+├── tailwind.config.js
+├── postcss.config.js
+├── styles/
+│   └── globals.css
+├── src/
+│   ├── lib/
+│   │   └── utils.ts
+│   ├── components/
+│   │   ├── ui/
+│   │   │   ├── button.tsx
+│   │   │   ├── card.tsx
+│   │   │   ├── input.tsx
+│   │   │   ├── label.tsx
+│   │   │   ├── slider.tsx
+│   │   │   ├── checkbox.tsx
+│   │   │   └── progress.tsx
+│   └── app/
+│       └── page.tsx
+└── README.md
+
+# Note: Make sure the src/ and styles/ folders contain the respective files generated.
+# 1. Run 'npm install'.
+# 2. Start local dev with 'npm run dev'.
+# 3. Open at http://localhost:3000.
